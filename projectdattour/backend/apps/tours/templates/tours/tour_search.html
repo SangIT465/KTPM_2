@@ -1,0 +1,6 @@
+{# filepath: d:\du_lich_viet\projectdattour (1)\projectdattour\backend\apps\tours\templates\tours\tour_search.html #}
+{% for tour in tours %}
+    <div>{{ tour.title }}</div>
+{% empty %}
+    <div>Không có kết quả</div>
+{% endfor %}
